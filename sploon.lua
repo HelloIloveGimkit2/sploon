@@ -101,7 +101,7 @@ local autoexplosion = Tabs.Main:AddToggle("explsionhaha",
 local autoslush = Tabs.Main:AddToggle("autoslushha",
 {
     Title = "Auto refill slush",
-    Description = "Constantly refills slush",
+    Description = "Constantly refills slush (must toggle off and on when died)",
     Default = false,
     Callback = function(state)
         getgenv().autorefill = state
